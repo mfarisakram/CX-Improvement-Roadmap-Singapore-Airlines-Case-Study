@@ -60,4 +60,6 @@ Based on these findings, I recommend the following actions:
 * Audit Meal Service: We need to look at the food menus again. A survey could help us find out if the issue is taste, quantity, or choice.
 * Support Crew Training: With service complaints rising, our cabin crew might be overworked due to full flights. We should look into staffing levels to ensure they have enough time to care for every passenger.
 
+#### Disclaimer
+Analyst's Note: The analysis presented in this report, including the data summaries and interpretation, was performed by the author. Generative AI services were utilised solely as a tool to assist with drafting the structure of the report, suggesting efficient Excel formula logic, and refining the language for clarity and adherence to British English standards. The data gathering, core calculations, and final strategic recommendations remain the sole intellectual product of the author.
 
