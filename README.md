@@ -16,14 +16,51 @@ The primary objective of this analysis was to:
 3) Provide clear evidence so the management team can allocate resources to fix these specific issues.
 
 # Data Preparation Process
-Here is the simple process I followed:
+The initial dataset I received was extensive, consisting of roughly 10,000 rows of review data recorded from 2018 right up to March 2024. For the purpose of conducting a focused, annual analysis that reflects the most current passenger sentiment, I decided to narrow the scope to the two most recent, complete years of data: 2022 and 2023. Given the relatively manageable size of the filtered dataset and the need for detailed cross-tabulation and sorting by year and complaint type, Microsoft Excel proved to be the most ideal and efficient tool for cleaning, summarising, and analysing the data in this case study.
 
-## Data Cleaning: 
-1) I looked through the raw reviews to ensure the dates were correct and that the comments were categorised properly (e.g., tagging a comment about "small seats" under "Seat/Legroom").
+The processing was executed in the following steps:
+ 
+Here is the rewritten and detailed description of your data processing and cleaning methods, suitable for your case study report:
 
-2) Grouping: I organised the data by year (2022 vs. 2023) and by specific complaint categories.
+Data Preparation Process
+My analysis began with a large initial dataset containing approximately 10,000 customer reviews from 2018 to March 2024. For this project, I filtered this data to focus exclusively on the 2022 and 2023 records, as these are the two most recent, complete years, making them the most relevant for establishing current trends. Given the resulting dataset size, Microsoft Excel was the most appropriate tool for the analysis.
 
-3) Pivot Table Analysis: I created a summary table (Pivot Table 1) to count exactly how many times each issue was mentioned in each year. This allowed me to see the "Grand Total" and the year-on-year changes clearly.
+The processing was executed in the following steps:
+
+#### 1. Data Cleaning and Transformation
+I first ensured data quality by checking the filtered tables to confirm there were no null values in the primary analytical columns (e.g., date and review text).
+
+I then transformed the raw datetime column into separate Year and Month columns. This transformation was critical for conducting the subsequent yearly comparison and monthly trend analysis.
+
+#### 2. Complaint Theme Categorisation
+The review column, which contains the free-text customer feedback, required careful thematic categorisation. I established ten distinct complaint themes, as defined below:
+
+* Check-in process
+* Luggage issue
+* Ground customer service
+* In-flight meal
+* In-flight services
+* Seat/legroom issue
+* Flight delay/cancellation
+* Booking & tickets issue
+* Refund & Claim issue
+* Value for money
+
+To systematically tag each review, I used a series of Excel IF, AND, and OR functions combined with the ISNUMBER(SEARCH()) logic. This approach allowed me to assign a '1' to a review row if it contained specific sets of keywords relevant to a theme, and '0' otherwise.
+
+For example, to identify a "Luggage Issue", the function needed to confirm the presence of a primary keyword (e.g., "luggage", "bag", "baggage", or "suitcase") AND a secondary keyword related to the failure (e.g., "lost", "missing", "damaged", or "claim"). A simplified example of the function logic used is:
+
+**Excel**
+**=IF(AND(OR(Search for 'luggage', 'bag'), OR(Search for 'lost', 'damaged')), 1, 0)**
+
+By applying this logic across all ten themes, I effectively converted the qualitative text data into quantitative, binary (1 or 0) complaint variables.
+
+#### 3. Analysis and Reporting
+Grouping and Summarising: With the themes categorised, I then organised the data by the extracted Year (2022 vs. 2023) and by the specific complaint theme columns.
+
+**Pivot Table Analysis:** I created a summary pivot table (titled "Pivot Table 1") to count the number of times each issue was mentioned in 2022 and 2023. This provided the "Grand Total" complaint volume and clearly established the essential year-on-year changes.
+
+**Dashboard Creation:** Finally, the results were visualised in a dashboard titled "CX Improvement Roadmap: Key Complaint Drivers & Year-Over-Year Performance (2022-2023)". The dashboard first addressed the overall complaint volume trend before focusing in detail on the top three highest-volume complaints in 2023 and investigating the relationship between these key issues.
 
 # Key Findings
 
@@ -31,9 +68,9 @@ When comparing 2022 to 2023, the data tells an interesting story.
 
 * Total Volume: Some complaints are actually going down. For example, complaints about Flight Cancelation/Delay dropped from 93 in 2022 to 73 in 2023. This is a great sign that our operations are stabilising.
 * The Shift: However, complaints about the physical experience inside the plane are going up.
-* The Top 3: The most frequent complaints in 2023 were about Seats, Meals, and Service/Delays.
+* **The Top 3:** The most frequent complaints in 2023 were about **Seats, Meals, and Service/Delays.**
 
-# Result
+# Analysis Result
 [View Dashboard](https://github.com/mfarisakram/excel-dashboard/blob/main/dashboard.png)
 
 Here is the breakdown of the top issues we faced in 2023 based on the data.
@@ -56,7 +93,7 @@ The data shows a clear pattern. While our logistical operations (like getting fl
 # Recommendations
 Based on these findings, I recommend the following actions:
 
-* Review Seat Comfort: We should investigate specific aircraft types where seat complaints are highest. It might be time to check if seat cushions need replacing or if the layout in Economy needs review.
+* Review Seat Comfort: We should investigate specific aircraft types where seat complaints are highest and flight time duration
 * Audit Meal Service: We need to look at the food menus again. A survey could help us find out if the issue is taste, quantity, or choice.
 * Support Crew Training: With service complaints rising, our cabin crew might be overworked due to full flights. We should look into staffing levels to ensure they have enough time to care for every passenger.
 
