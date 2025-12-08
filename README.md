@@ -32,3 +32,5 @@ When comparing 2022 to 2023, the data tells an interesting story.
 * Total Volume: Some complaints are actually going down. For example, complaints about Flight Cancelation/Delay dropped from 93 in 2022 to 73 in 2023. This is a great sign that our operations are stabilising.
 * The Shift: However, complaints about the physical experience inside the plane are going up.
 * The Top 3: The most frequent complaints in 2023 were about Seats, Meals, and Service/Delays.
+
+
