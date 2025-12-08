@@ -11,7 +11,6 @@ I would like to thank fellow kagglers, Kanchana1990 for making this dataset avai
 
 # Main Goal
 The primary objective of this analysis was to:
-
-* 1) Identify the top 3 categories of complaints in 2023.
-* 2) Compare these numbers with 2022 to spot trends.
-* 3) Provide clear evidence so the management team can allocate resources to fix these specific issues.
+1) Identify the top 3 categories of complaints in 2023.
+2) Compare these numbers with 2022 to spot trends.
+3) Provide clear evidence so the management team can allocate resources to fix these specific issues.
