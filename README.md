@@ -1,2 +1,2 @@
-# excel-dashboard
-In this project, I analysed customer feedback for Singapore Airlines to identify the top three areas where we received the most complaints in 2023.
+# Introduction
+Aviation and travel are my greatest passions. I view the entire passenger journey as a series of crucial touchpoints: from ticket purchase and airport arrival to the check-in process, the comfort of the in-flight seat and meal, and the overall onboard services. I always aim for seamless service and expect a high level of comfort, especially when paying a premium for the experience. However, particularly on long-haul flights, a consistently excellent experience is not always guaranteed.
