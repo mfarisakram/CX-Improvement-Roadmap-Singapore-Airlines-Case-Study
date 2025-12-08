@@ -33,4 +33,31 @@ When comparing 2022 to 2023, the data tells an interesting story.
 * The Shift: However, complaints about the physical experience inside the plane are going up.
 * The Top 3: The most frequent complaints in 2023 were about Seats, Meals, and Service/Delays.
 
+# Result
+[View Dashboard](https://github.com/mfarisakram/excel-dashboard/blob/main/dashboard.png)
+
+Here is the breakdown of the top issues we faced in 2023 based on the data.
+
+### 1. Seat and Legroom Issues (107 complaints) This was the number one complaint for 2023.
+The Trend: In 2022, we had 67 complaints about this. In 2023, it jumped to 107.
+The Insight: This is a massive increase. Passengers are finding the seats uncomfortable or the legroom insufficient. Since this number nearly doubled, it suggests that as our flights became fuller post-pandemic, passengers became much more sensitive to personal space and seat comfort.
+
+### 2. In-flight Meal (88 complaints) Food was the second biggest issue.
+The Trend: This rose from 70 complaints in 2022 to 88 in 2023.
+The Insight: While not as steep a rise as the seat issues, it is still an upward trend. Passengers are likely unhappy with the portion sizes, the quality, or the variety of the food served. For a premium airline, food is a key differentiator, so this increase is worrying.
+
+### 3. In-flight Service & Flight Delays (Tie at 73 complaints) In third place, we have a tie between two categories.
+In-flight Service: This went up from 58 in 2022 to 73 in 2023. This is a concern because service is usually our strongest point. A rise here means passengers felt the crew were perhaps less attentive or rushed. 
+Flight Cancellation/Delay: As mentioned, this actually improved (down from 93 in 2022), but it is still high enough to be in the top 3.
+
+# Conclusion
+The data shows a clear pattern. While our logistical operations (like getting flights out on time) improved in 2023 compared to 2022, the "on-board experience" declined. The significant rise in complaints about seats, food, and service suggests that while we are getting people to their destinations, they are enjoying the journey less than they used to.
+
+# Recommendations
+Based on these findings, I recommend the following actions:
+
+* Review Seat Comfort: We should investigate specific aircraft types where seat complaints are highest. It might be time to check if seat cushions need replacing or if the layout in Economy needs review.
+* Audit Meal Service: We need to look at the food menus again. A survey could help us find out if the issue is taste, quantity, or choice.
+* Support Crew Training: With service complaints rising, our cabin crew might be overworked due to full flights. We should look into staffing levels to ensure they have enough time to care for every passenger.
+
 
