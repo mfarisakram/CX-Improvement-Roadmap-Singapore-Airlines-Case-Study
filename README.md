@@ -1,4 +1,4 @@
-# Project Title: CX Improvement Roadmap (Singapore Airlines Case Study)
+# CX Improvement Roadmap (Singapore Airlines Case Study)
 
 # 1. Introduction
 Aviation and travel are my greatest passions. I view the entire passenger journey as a series of crucial touchpoints: from ticket purchase and airport arrival to the check-in process, the comfort of the in-flight seat and meal, and the overall onboard services. I always aim for seamless service and expect a high level of comfort, especially when paying a premium for the experience. However, particularly on long-haul flights, a consistently excellent experience is not always guaranteed.
@@ -11,7 +11,7 @@ My manager approached me with a specific concern. While we generally maintain hi
 To ensure these figures had meaningful context, I was also asked to compare them with our 2022 data. This comparison is vital, as it allows us to establish a pattern and determine whether an issue is a new, immediate concern or an underlying problem that has been happening for a long time.
 
 # 3. Data Source
-I would like to thank fellow Kaggler, Kanchana1990, for making the Singapore Airlines Reviews dataset available. For this case study, I performed the analysis using two full years of customer review data, specifically covering the period from 2022 through to the end of 2023. This two-year scope was essential for establishing clear patterns and trends in passenger complaints before diving into the specific pain points identified in the most recent year.
+I would like to thank fellow Kaggler, Kanchana1990, for making the [Singapore Airlines Reviews dataset](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews) available. For this case study, I performed the analysis using two full years of customer review data, specifically covering the period from 2022 through to the end of 2023. This two-year scope was essential for establishing clear patterns and trends in passenger complaints before diving into the specific pain points identified in the most recent year.
 
 # 4. Main Goal
 The primary objective of this analysis was to:
