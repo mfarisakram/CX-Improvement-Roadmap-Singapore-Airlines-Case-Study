@@ -49,7 +49,7 @@ When comparing 2022 to 2023, the data tells an interesting story.
 
 ### [Download CSV file](https://github.com/mfarisakram/CX-Improvement-Roadmap-Singapore-Airlines-Case-Study/blob/main/CX%20Improvement%20Roadmap%20(Singapore%20Airlines%20Case%20Study).xlsx)
 
-#### Analysis of Top Issues (2023)
+## Analysis of Top Issues (2023)
 **1. Seat and Legroom Issues (107 complaints)**
 
 The Trend: In 2022, we had 67 complaints about this. In 2023, it jumped to 107.
