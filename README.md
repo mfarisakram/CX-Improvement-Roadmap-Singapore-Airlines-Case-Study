@@ -43,6 +43,7 @@ Total Volume: Some complaints are actually decreasing. For example, complaints a
 **The Shift:** However, complaints about the physical experience inside the plane are increasing.
 
 **The Top 3:** The most frequent complaints in 2023 were about Seats, Meals, and Service.
+### [View Dashboard Screenshot](https://github.com/mfarisakram/CX-Improvement-Roadmap-Singapore-Airlines-Case-Study/blob/main/CX%20Improvement%20Roadmap%20(Singapore%20Airlines%20Case%20Study)%20Dashboard%20Screenshot.png)
 
 #### Analysis of Top Issues (2023)
 **1. Seat and Legroom Issues (107 complaints)**
